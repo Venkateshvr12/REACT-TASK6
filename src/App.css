@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  background-color: #EFEFEF;
+}
+
+.App-header {
+  background-color: #D3D3D3;
+  padding: 20px 20px;
+  border-bottom: 1px solid #BBB;
+  text-align: center;
+  position: relative;
+}
+
+.App-nav {
+  background-color: #007ACC;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.App-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.App-nav a:hover {
+  background-color: #0099FF;
+  color: #333;
+}
+
+.App-section {
+  padding: 20px;
+  border-bottom: 1px solid #BBB;
+}
+
+.App-footer {
+  margin-left: 0px;
+  background-color: #007ACC;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.signature {
+  position: absolute;
+  top: 50%;
+  left: 50%; /* Position at 50% from the left */
+  transform: translate(-50%, -550%); /* Center both horizontally and vertically */
+  font-size: 24px;
+  font-family: cursive;
+  color: #ff0000;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #000;
+  width: 0;
+  animation: fadeIn 7s steps(10, end) infinite;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+      width: 0;
+  }
+  to {
+      width: 10%;
+  }
+}
